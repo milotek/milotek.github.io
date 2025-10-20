@@ -1,0 +1,21 @@
+body{
+    color: #444;
+    background-color: #EEE;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6em;
+    font-size: 18px;
+    padding: 0;
+    font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+    animation-name: myAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+  0%   {font-family: Arial;}
+  25%  {font-family: Lucida Sans;}
+  50%  {font-family: Comic Sans MS;}
+  75%  {font-family: Helvetica;}
+  100% {font-family: Arial}
+}
