@@ -1,7 +1,5 @@
----
-
 <p align="center">
-    <img width="1080" height="720" src="https://files.catbox.moe/p0cpbn.png">
+    <img width="720" height="480" src="https://files.catbox.moe/p0cpbn.png">
 </p>
 
 <h1 align="center">
@@ -11,8 +9,6 @@
 <p align="center">
     test test testicles
 </p>
-
----
 
 ## features
 - Holy
