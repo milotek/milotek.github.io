@@ -6,16 +6,13 @@ body{
     line-height: 1.6em;
     font-size: 18px;
     padding: 0;
-    font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+    font-family: Comic Sans MS;
     animation-name: myAnimation;
-    animation-duration: 500ms;
+    animation-duration: 200ms;
     animation-iteration-count: infinite;
 }
 
 @keyframes myAnimation {
-  0%   {font-family: Arial;}
-  25%  {font-family: Lucida Sans;}
-  50%  {font-family: Comic Sans MS;}
-  75%  {font-family: Helvetica;}
-  100% {font-family: Arial}
+  0%  {font-family: Comic Sans MS;}
+  50%  {font-family: Helvetica;}
 }
