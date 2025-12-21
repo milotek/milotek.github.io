@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wow</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+    <link rel="stylesheet" href="dark.css">
+
+    <style>
+        midi-player::part(time) {
+            color: #222;
+        }
+        midi-player::part(play-button) {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY MIDI COLLECTION</h1>
+    <p>I change it whenever I feel like it. Fuck you.</p>
+
+    <midi-player
+      src="kodak_moment_2.mid"
+      sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus"
+      visualizer="#myVisualizer">
+    </midi-player>
+
+    <midi-visualizer
+      type="piano-roll"
+      id="myVisualizer"
+    </midi-visualizer>
+
+    <p>burps loudly... ummm <a href="kodak_moment_2.mid">download</a> me? please? smiles cutely</p>
+    <p>credit: cxrpool, jane remover</p>
+    <p>The internet used to be operated, made and maintained by people who just loved computers. Remember when ROBLOX had a MOD tracker just <a href="https://modarchive.org/index.php?request=view_player&query=46469">included in it</a> for no reason? (hint: it's because when you hire <a href="https://www.linkedin.com/in/shedletsky/#:~:text=Languages-,C/C%2B%2B/C%23,-C/C%2B%2B/C">real motherfuckers</a> they do based shit). Do you know how small this music sequence AND soundfont are in total? 3.5MB. FUCK.</p>
+    <p>Speaking of mod trackers... <a href="https://modarchive.org/index.php?request=view_player&query=46469">let me put you on xx.</a></p>
+    <p>I know Verdana sucks, by the way, I don't care.</p>
+
+    <script>
+  const visualizer = document.getElementById('myVisualizer');
+
+  visualizer.config = {
+      noteRGB: '50, 50, 50',
+      activeNoteRGB: '255, 255, 255',
+      pixelsPerTimeStep: 5,
+  };
+</script>
+</body>
+</html>
