@@ -12,3 +12,7 @@ body{
     animation-iteration-count: infinite;
 }
 
+a {
+  color: #ffbdbd;
+  font-weight: bold;
+}
